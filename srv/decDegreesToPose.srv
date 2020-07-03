@@ -1,6 +1,6 @@
-float latititude_dec_deg
-float longitude_dec_deg
-float heading_radians
+float32 latititude_dec_deg
+float32 longitude_dec_deg
+float32 heading_radians
 ---
 geometry_msgs/PoseStamped converted_pose
 
