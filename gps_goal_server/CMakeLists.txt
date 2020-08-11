@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8.3)
 
-project(gps_goal)
+project(gps_goal_server)
 
 find_package(catkin REQUIRED COMPONENTS
   rospy
