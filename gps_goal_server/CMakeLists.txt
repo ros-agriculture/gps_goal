@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8.3)
 
-project(gps_goal)
+project(gps_goal_server)
 
 find_package(catkin REQUIRED COMPONENTS
   rospy
@@ -12,10 +12,10 @@ find_package(catkin REQUIRED COMPONENTS
   move_base_msgs
   message_generation
 )
-add_service_files(
-  FILES
-  decDegreesToPose.srv
-)
+#add_service_files(
+#  FILES
+#  decDegreesToPose.srv
+#)
 catkin_python_setup()
 
 generate_messages( DEPENDENCIES std_msgs geometry_msgs )

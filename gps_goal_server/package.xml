@@ -1,5 +1,5 @@
 <package>
-  <name>gps_goal</name>
+  <name>gps_goal_server</name>
   <version>0.1.0</version>
   <description>
       Set a ROS navigation goal using latitude and longitude.
