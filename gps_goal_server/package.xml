@@ -19,6 +19,8 @@
   <build_depend>geometry_msgs</build_depend>
   <build_depend>move_base_msgs</build_depend>
   <build_depend>message_generation</build_depend>
+  <build_depend>gps_goal_msgs</build_depend>
+  <run_depend>gps_goal_msgs</run_depend>
   <run_depend>rospy</run_depend>
   <run_depend>tf</run_depend>
   <run_depend>actionlib</run_depend>
